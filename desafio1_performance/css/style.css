@@ -1,0 +1,66 @@
+
+
+#grad1{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, Violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, Violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, Violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, Violet); /* Standard syntax (must be last) */
+}
+
+.line1 {
+    height: 6px;
+    border-radius: 4px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+h1{
+   color:white;
+   margin-top:20px;
+   margin-bottom:20px;
+}
+
+p{
+    color:white;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.button{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:45px;
+    border-radius: 100%;
+}
+
+div{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    text-align:center;
+}
+
+html{
+    background-color:black;
+}
+
+a{
+    color:white;
+}
+
+#belly{
+    margin: auto;
+    min-width: 500px;
+}
+
+#target{
+    font-size: 100px; margin: auto; text-align: center;
+    animation: zoom-num 1s infinite;
+    width: 100px;
+    position: relative;
+    display: none;
+    background-color:white;
+  }
